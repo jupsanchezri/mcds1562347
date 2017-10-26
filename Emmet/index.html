@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h3>Ejercicios EMMET</h3>
+    </header>
+
+    <div class="container">
+
+        <div id="accordion" role="tablist">
+            <div class="card">
+                <div class="card-header" role="tab" id="heading1">
+                    <h5 class="mb-0">
+                        <a data-toggle="collapse" href="#collapse1" aria-expanded="true" aria-controls="collapse1" class="text-dark">
+                            1. Emmet - Anidar Elementos
+                        </a>
+                    </h5>
+                </div>
+
+                <div id="collapse1" class="collapse" role="tabpanel" aria-labelledby="heading1" data-parent="#accordion">
+                    <div class="card-body">
+
+                        <div class="row">
+                            <div class="col-5">
+                                <p>div>ul>li</p>
+                            </div>
+                            <div class="col-7">
+                                <xmp>
+    <div>
+        <ul>
+            <li></li>
+        </ul>
+    </div>
+                                </xmp>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" role="tab" id="heading2">
+                    <h5 class="mb-0">
+                        <a data-toggle="collapse" href="#collapse2" aria-expanded="true" aria-controls="collapse2" class="text-dark">
+                            2. Emmet - Elementos Hermanos
+                        </a>
+                    </h5>
+                </div>
+
+                <div id="collapse2" class="collapse" role="tabpanel" aria-labelledby="heading2" data-parent="#accordion">
+                    <div class="card-body">
+
+                        <div class="row">
+                            <div class="col-5">
+                                <p>header+section+footer</p>
+                            </div>
+                            <div class="col-7">
+                                <xmp>
+    <header></header>
+    <section></section>
+    <footer></footer>
+                                </xmp>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" role="tab" id="heading3">
+                    <h5 class="mb-0">
+                        <a data-toggle="collapse" href="#collapse3" aria-expanded="true" aria-controls="collapse3" class="text-dark">
+                            3. Emmet - Repetir Elementos
+                        </a>
+                    </h5>
+                </div>
+
+                <div id="collapse3" class="collapse" role="tabpanel" aria-labelledby="heading3" data-parent="#accordion">
+                    <div class="card-body">
+
+                        <div class="row">
+                            <div class="col-5">
+                                <p>table>tr*3>td*2</p>
+                            </div>
+                            <div class="col-7">
+                                <xmp>
+    <table>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+                                </xmp>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" role="tab" id="heading4">
+                    <h5 class="mb-0">
+                        <a data-toggle="collapse" href="#collapse4" aria-expanded="true" aria-controls="collapse4" class="text-dark">
+                            4. Emmet - Atributo Clase
+                        </a>
+                    </h5>
+                </div>
+
+                <div id="collapse4" class="collapse" role="tabpanel" aria-labelledby="heading4" data-parent="#accordion">
+                    <div class="card-body">
+
+                        <div class="row">
+                            <div class="col-5">
+                                <p>a.btn</p>
+                            </div>
+                            <div class="col-7">
+                                <xmp>
+    <a href="" class="btn"></a>
+                                </xmp>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" role="tab" id="heading5">
+                    <h5 class="mb-0">
+                        <a data-toggle="collapse" href="#collapse5" aria-expanded="true" aria-controls="collapse5" class="text-dark">
+                            5. Emmet - Multiples Clases
+                        </a>
+                    </h5>
+                </div>
+
+                <div id="collapse5" class="collapse" role="tabpanel" aria-labelledby="heading5" data-parent="#accordion">
+                    <div class="card-body">
+
+                        <div class="row">
+                            <div class="col-5">
+                                <p>a.btn.btn-primary</p>
+                            </div>
+                            <div class="col-7">
+                                <xmp>
+    <a href="" class="btn btn-primary"></a>
+                                </xmp>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" role="tab" id="heading6">
+                    <h5 class="mb-0">
+                        <a data-toggle="collapse" href="#collapse6" aria-expanded="true" aria-controls="collapse6" class="text-dark">
+                            6. Emmet - Atributo Identificador
+                        </a>
+                    </h5>
+                </div>
+
+                <div id="collapse6" class="collapse" role="tabpanel" aria-labelledby="heading6" data-parent="#accordion">
+                    <div class="card-body">
+
+                        <div class="row">
+                            <div class="col-5">
+                                <p>section#about</p>
+                            </div>
+                            <div class="col-7">
+                                <xmp>
+    <section id="about"></section>
+                                </xmp>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" role="tab" id="heading7">
+                    <h5 class="mb-0">
+                        <a data-toggle="collapse" href="#collapse7" aria-expanded="true" aria-controls="collapse7" class="text-dark">
+                            7. Emmet - Adicionar Texto
+                        </a>
+                    </h5>
+                </div>
+
+                <div id="collapse7" class="collapse" role="tabpanel" aria-labelledby="heading7" data-parent="#accordion">
+                    <div class="card-body">
+
+                        <div class="row">
+                            <div class="col-5">
+                                <p>h1{titulo}</p>
+                                <p>p{contenido}</p>
+                            </div>
+                            <div class="col-7">
+                                <xmp>
+    <h1>titulo</h1>
+    <p>contenido</p>
+                                </xmp>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" role="tab" id="heading8">
+                    <h5 class="mb-0">
+                        <a data-toggle="collapse" href="#collapse8" aria-expanded="true" aria-controls="collapse8" class="text-dark">
+                            8. Emmet - Personalizar Atributos
+                        </a>
+                    </h5>
+                </div>
+
+                <div id="collapse8" class="collapse" role="tabpanel" aria-labelledby="heading8" data-parent="#accordion">
+                    <div class="card-body">
+
+                        <div class="row">
+                            <div class="col-5">
+                                <p>input[type=password]</p>
+                            </div>
+                            <div class="col-7">
+                                <xmp>
+    <input type="password">
+                                </xmp>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" role="tab" id="heading9">
+                    <h5 class="mb-0">
+                        <a data-toggle="collapse" href="#collapse9" aria-expanded="true" aria-controls="collapse9" class="text-dark">
+                            9. Emmet - Números Consecutivos
+                        </a>
+                    </h5>
+                </div>
+
+                <div id="collapse9" class="collapse" role="tabpanel" aria-labelledby="heading9" data-parent="#accordion">
+                    <div class="card-body">
+
+                        <div class="row">
+                            <div class="col-5">
+                                <p>ol>li.item-$*4</p>
+                            </div>
+                            <div class="col-7">
+                                <xmp>
+    <ol>
+        <li class="item-1"></li>
+        <li class="item-2"></li>
+        <li class="item-3"></li>
+        <li class="item-4"></li>
+    </ol>
+                                </xmp>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" role="tab" id="heading10">
+                    <h5 class="mb-0">
+                        <a data-toggle="collapse" href="#collapse10" aria-expanded="true" aria-controls="collapse10" class="text-dark">
+                            10. Emmet - Base Números Consecutivos
+                        </a>
+                    </h5>
+                </div>
+
+                <div id="collapse10" class="collapse" role="tabpanel" aria-labelledby="heading10" data-parent="#accordion">
+                    <div class="card-body">
+
+                        <div class="row">
+                            <div class="col-5">
+                                <p>ol>li.item-$@5*4</p>
+                            </div>
+                            <div class="col-7">
+                                <xmp>
+    <ol>
+        <li class="item-5"></li>
+        <li class="item-6"></li>
+        <li class="item-7"></li>
+        <li class="item-8"></li>
+    </ol>
+                                </xmp>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        @2017
+    </footer>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.8.2/umd/popper.js"></script>
+<script src="assets/bootstrap/bootstrap.min.js"></script>
+
+</html>
